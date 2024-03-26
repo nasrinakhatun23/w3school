@@ -1,0 +1,1326 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+    
+}
+
+.nav_bar{
+    border: 1px solid black;
+    
+    
+    
+}
+
+
+.nav_bar  ul{
+    align-items: center;
+    display: flex;
+    justify-content:space-around;
+    /* margin-right: 10%; */
+    /* margin: 1%; */
+   
+   
+}
+
+
+.first1{
+    text-decoration: none;
+}
+
+.first1{
+    color: black;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#purple{
+  color: blueviolet;  
+}
+
+
+.errow:hover{
+    background-color:rgb(101, 186, 101)
+}
+
+.input1{
+    height: 2.8em;
+    width: 12em;
+    border-radius: 20px;
+    border: 1px solid rgb(222, 216, 216);
+    padding: 5%;
+    font-size: 90%;
+
+}
+
+.w3_school{
+    cursor: pointer;
+}
+
+
+
+#searching{
+    position: relative;
+    right: 3%;
+    /* top: 10px; */
+    cursor: pointer;
+    
+}
+
+#chand{
+    margin-right: 90px;
+    position:relative;
+    /* top: 10px; */
+    cursor: pointer;
+}
+
+
+
+#hovring :hover{
+    background-color: rgb(183, 161, 161)
+}
+
+.color_green{
+    background-color: green;
+    height: 70%;
+    border-radius: 20px;
+    width: 8em;
+    font-size: 100%;
+    color: white;
+    border: 1px solid green;
+    position: relative;
+    left: 32%;
+    padding: 5%;
+    cursor: pointer;
+}
+
+.color_grey{
+    background-color: rgb(220, 241, 249);
+    height: 70%;
+    width: 7em;
+    font-size: 100%;
+    color: black;
+    border-radius: 20px;
+    border: 1px solid rgb(220, 241, 249) ;
+    padding: 5%;
+    cursor: pointer;
+
+}
+
+.nav2_bar2 .ul2{
+    display: flex;
+   
+
+}
+.nav2_bar2{
+    border: 1px solid black;
+    padding: 1%;
+    color: white;
+    background-color: black;
+}
+.list{
+    margin: 1%;
+    cursor: pointer;
+}
+.ul2{
+    overflow-x: auto;
+    scrollbar-width: none;
+    
+}
+
+.nav2_bar2{
+    height: 9vh;   
+
+}
+
+.background1{
+    background-image: url(./background_in_space.gif);
+    height: 100vh;
+    width: 100%;
+}
+
+.second_div{
+    color: white;
+}
+
+.second_div{
+    text-align: center;
+    position: relative;
+    top: 20%;
+}
+
+.textt{
+   height: 3em;
+   width: 40%;
+   border-radius: 20px;
+   padding: 1.5%;
+   font-weight: bold;
+   font-size: 1em;
+   position: relative;
+   left: 5%;
+
+}
+#seachh2{
+   border-radius: 20px;
+}
+
+  .mainbar{
+    position: sticky;
+     top: 0px ;
+     background-color: white;
+     z-index: 1;
+
+}  
+
+.hearder{
+    font-size: 4em
+}
+
+.para1{
+    color: rgb(241, 241, 126);
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.fa-search{
+   color: black;
+   font-size: 2%;
+}
+
+.last{
+    margin: 3%;
+    font-size: 1.4em;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.hr1{
+    width: 21%;
+    position: relative;
+    left: 40%;
+    bottom: 35px;
+}
+
+.image2{
+    position: relative;
+    margin-left: 75%;
+    bottom: 14%;
+}
+
+.color2_greyy :hover{
+    background-color: green;
+    color: white;
+    
+}
+
+.sidegreen{
+    border-radius: 25px;
+    /* float: left; */
+    width: 10%;
+    padding: 13px;
+    background: #04AA6D;
+    color: white;
+    /* font-size: 17px; */
+    border: 1px solid #282A35;
+    /* border-left: none; */
+    cursor: pointer;
+    border-top-left-radius: 0;
+    border-bottom-left-radius:0;
+    position: relative;
+    right: 5%;
+    top: 2px    
+
+}
+
+.second_background{
+    height: 100vh;
+    width: 100%;
+    background-color: #D9EEE1;
+}
+
+.big_html{
+    font-size: 80px;
+    
+}
+.para2{
+  font-size: 19px;
+  font-weight: bold  
+}
+
+.learn{
+    background-color: #04AA6D;
+    color: white;
+    font-size: 18px;
+    /* margin: auto; */
+    display: block;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    padding: 0.9%;
+    padding: 3%;
+    
+}
+
+.learn1{
+    background-color: #FFF4A3;
+    color: black;
+    font-size: 18px;
+    /* margin: auto; */
+    display: block;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    /* padding: 0.9%; */
+    padding: 3%;
+    
+}
+.learn2{
+    background-color: #282A35;
+    color: white;
+    font-size: 18px;
+    /* margin: auto; */
+    display: block;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    /* padding: 0.9%; */
+    padding: 3%;
+    
+}
+.learn3{
+    background-color: #FFC0C7;
+    color:black;
+    font-size: 18px;
+    /* margin: auto; */
+    display: block;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    /* padding: 0.9%; */
+    padding: 3%;
+    
+}
+
+.main_page1{
+    background-color: rgb(237, 235, 235);
+    box-shadow: 0 2px 5px 0 rgba(215, 179, 179, 0.16), 0 2px 10px 0 rgba(220, 32, 32, 0.12);
+    width: 400px;
+    height: 120%;
+   
+
+}
+
+.second_background{
+    display: flex;
+    padding: 10%;
+    /* justify-content: center; */
+    justify-content:space-around;
+    
+    
+}
+
+.chotu_div0{
+    background-color: white;
+    margin: 5%;
+    border-left: 4px solid  #04AA6D;
+    padding-left: 2%;
+    
+}
+
+.page_head{
+    position: relative;
+    left: 4%;
+    top: 8px;
+    font-size: 1.4em;
+    padding: 2%;
+}
+
+.but_try{
+    background-color: #04AA6D;
+    color: white;
+    font-size: 18px;
+    /* margin: auto; */
+    display: block;
+    width: 180px;
+    height: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    padding: 0.9%;
+    position: relative;
+    left: 6%;
+    padding: 3%;
+    
+    
+}
+
+.less{
+    color: blue;
+}
+
+.greter{
+    color:blue;
+}
+
+.html{
+    color:red;
+}
+
+.a{
+    color: brown;
+}
+
+
+.second2_background{
+    display: flex;
+    padding: 10%;
+    /* justify-content: center; */
+    justify-content:space-around;
+    height: 100vh;
+    width: 100%;
+    background-color: #FFF4A3;
+}
+
+.b{
+    color: brown;
+}
+
+.styling{
+    color: red;
+}
+
+.siblibg{
+    color: blue;
+}
+
+.colun{
+    color: black;
+}
+
+.semicolun{
+    color: black;
+}
+
+.curly{
+    color: black;
+}
+
+.second3_background{
+    display: flex;
+    padding: 10%;
+    /* justify-content: center; */
+    justify-content:space-around;
+    height: 100vh;
+    width: 100%;
+    background-color:#282A35;
+}
+
+.big1_html{
+    font-size: 65px;
+    color: white;
+    
+}
+
+.para3{
+    font-size: 19px;
+    font-weight: bold; 
+    color: white;
+
+  }
+
+  .learn22{
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    /* margin: auto; */
+    display: block;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    padding: 0.9%;
+    
+}
+
+.err_less{
+    color: blue;
+}
+.err_greter{
+    color: blue;
+}
+.c{
+    color: brown;
+}
+.span_button{
+    color: brown;
+}
+
+.last_script{
+    color: brown;
+}
+
+.function_line{
+    color: blue;
+}
+.let{
+    color: blue;
+}
+.demo{
+    color: brown;
+}
+.twentyfive{
+    color: brown;
+}
+.red{
+    color: brown;
+}
+
+.script3{
+    color: brown;
+}
+
+.big2_html{
+    font-size: 65px;
+    color: black;  
+}
+
+.second4_background{
+    display: flex;
+    padding: 10%;
+    /* justify-content: center; */
+    justify-content:space-around;
+    height: 100vh;
+    width: 100%;
+    background-color:#F3ECEA;
+}
+
+.para4{
+    color: black;
+}
+.learn222{
+    background-color: #282A35;
+    color: white;
+    font-size: 18px;
+    /* margin: auto; */
+    display: block;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    padding: 0.9%;
+    
+}
+
+.chotu1_div00{
+    background-color: white;
+    margin: 7%;
+    padding-bottom: 50%;
+    border-left: 4px solid  #04AA6D;
+    padding-left: 2%;
+    
+}
+
+.if_condition{
+    color: blue;
+}
+.five{
+    color: red;
+}
+
+.two{
+    color: red;
+}
+
+.five_gre{
+    color: brown;
+}
+
+.second5_background{
+    display: flex;
+    padding: 10%;
+    /* justify-content: center; */
+    justify-content:space-around;
+    height: 100vh;
+    width: 100%;
+    background-color:#96D4D4;
+}
+
+.para4{
+    font-size: 19px;
+    font-weight: bold; 
+    color: black;
+
+  }
+
+.sel1{
+    color: blue;
+}
+
+.from{
+    color: blue;
+}
+
+.where{
+    color: blue;
+}
+.maxi{
+    color: brown;
+}
+
+.chotu2_div000{
+    background-color: white;
+    margin: 7%;
+    padding-bottom: 45%;
+    border-left: 4px solid  #04AA6D;
+    padding-left: 2%;
+       
+}
+
+.small_boxesmain{
+    background-color: #282A35;
+    color: white;
+    padding-top: 64px;
+    padding-bottom: 64px
+
+}
+
+
+.box1{
+    width: 38%;
+    color: black;
+    background-color: #FFC0C7;
+    padding: 24px;
+    margin: 4%;
+}
+
+.php{
+    font-size: 2.2em;
+    padding-bottom: 10%;
+    text-align: center;
+}
+
+.grey{
+    color: rgb(66, 65, 65);
+    padding-bottom: 10%;
+    text-align: center;
+}
+
+
+.learnphp{
+    background-color: #282A35;
+    color: white;
+    font-size: 18px;
+    /* margin: auto; */
+    display: block;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    /* padding: 0.9%; */
+    position: relative;
+    left: 24%;
+    padding: 2%;
+    
+}
+
+.child_small_boxesmain{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box11{
+    width: 42%;
+    color: black;
+    background-color: #FFC0C7;
+    padding: 24px;
+    margin: 4%;
+}
+.box2{
+    width: 42%;
+    color: black;
+    background-color:#FFF4A3;;
+    padding: 24px;
+    margin: 4%;
+}
+.box3{
+    width: 42%;
+    color: black;
+    background-color: #F3ECEA;
+    padding: 24px;
+    margin: 4%;
+}
+.box4{
+    width: 42%;
+    color: black;
+    background-color:  #D9EEE1;
+    padding: 24px;
+    margin: 4%;
+}
+.box5{
+    width: 42%;
+    color: black;
+    background-color: #96D4D4;
+    padding: 24px;
+    margin: 4%;
+}
+.box6{
+    width: 42%;
+    color: black;
+    background-color: #E7E9EB;
+    padding: 24px;
+    margin: 4%;
+}
+
+.pass_div{
+    width: 42%;
+    background-color: pink ;
+    padding: 24px;
+    text-align: center;   
+
+}
+
+.chote_maindiv{
+    background-color:hsl(231, 14%, 18%);
+    /* padding: 2%; */
+}
+
+.see{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+ 
+    
+}
+
+
+.childchote_boxy{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.boxx1{
+    width:22%;
+    text-align: center;
+    /* border-radius: 10px; */
+    padding: 2%;
+   
+}
+
+.childson{
+    background-color: #F3ECEA ;
+    color: black;
+    padding: 15%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rr{
+ font-size: 25px;
+ font-weight: 500;
+}
+
+.pass1_div{
+    width: 42%;
+    background-color: pink ;
+    padding: 40px;
+    text-align: center;
+    margin: 4%;  
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.maincodebig_page{
+    background-color:hsl(231, 14%, 18%);
+    text-align: center;
+    
+}
+
+.codeh1{
+    color: white;
+    font-size: 3em;
+    padding: 2%;
+}
+
+.codeh4{
+    color: white;
+    font-size: 1.1em;
+    padding: 2%;
+}
+
+.codeditor_container{
+    text-align: start;
+    margin-left: 12%;
+
+}
+
+.codeditor_container{
+    padding: 10px;
+    background: #f1f1f1;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    width: 76%;
+}
+
+.code_row{
+    width: 20%;
+}
+
+.circle{
+    margin-top: 5px;
+    height: 15px;
+    width: 15px;
+    background-color: rgb(190, 9, 9);
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 3px;
+    
+}
+
+.code_editor{
+    display: flex;
+    margin: 1%;
+    
+
+}
+
+  .intt2{
+    width: 40em;
+    border-radius: 3px;
+    border: none; 
+    background-color: white;
+    margin-top: -8px;
+    height: 24px;
+    color: #666;
+    font-size: 14px;
+    padding: 5px;
+    font-weight: bold;
+
+}  
+
+.circle1{
+    margin-top: 5px;
+    height: 15px;
+    width: 15px;
+    background-color: rgb(248, 248, 16);
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 3px;
+}
+
+.circle2{
+    margin-top: 5px;
+    height: 15px;
+    width: 15px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 3px;
+}
+
+.front{
+    font-size: 16px;
+    background-color:#E7E9EB ;
+    border: none;
+    padding: 2%;
+}
+
+.front1{
+    font-size: 16px;
+    border: none;
+
+}
+
+.try{
+font-size: 17px;
+border-radius: 5px;
+padding: 8px 18px;
+/* text-align: center; */
+cursor: pointer;
+background-color: #04AA6D;
+color: #ffffff;
+position: relative;
+right: 2%;
+cursor: pointer;
+
+}
+
+.try1{
+font-size: 17px;
+border-radius: 5px;
+padding: 8px 20px;
+/* text-align: center; */
+cursor: pointer;
+background-color: #fff080;
+color: black;
+cursor: pointer;
+
+}
+.ttyy{
+    padding: 2%;
+    position: relative;
+    right: 24%;
+}
+
+.code3editor{
+    background-color: #282A35;
+    color: white;
+    padding: 2%;
+}
+
+.codechild3_editor0{
+    text-align: center;
+    
+}
+.w3school{
+    padding-top: 8%;
+    font-size: 4em
+}
+
+.ifwant{
+    padding: 2%;
+    font-size:1.4em ;
+}
+
+.itfree{
+    font-size: 1.4em;
+}
+
+.lastanch{
+    background-color: #04AA6D;
+    color: white;
+    font-size: 20px;
+    margin: auto; 
+    display: block;
+    width: 260px;
+    border-radius: 25px;
+    padding: 1.4%;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+   
+    
+}
+
+.more{
+    margin: 8%;
+}
+
+
+.lasttaanch{
+    background-color: #04AA6D;
+    color: white;
+    font-size: 20px;
+    margin: auto; 
+    display: block;
+    width: 260px;
+    border-radius: 25px;
+    padding: 1.4%;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    
+    
+}
+
+.codethreechild{
+  text-align: center;
+}
+
+.codethree1{
+    padding: 4%;
+    background-color: #D9EEE1 ;
+    color: black;
+
+}
+
+.mylearn{
+    font-size: 4em;
+    padding: 2%;
+}
+
+.track{
+    font-size: 1.1em;
+    padding: 2%;
+}
+
+/* .free1{
+   font-weight: bold;
+} */
+
+.login{
+    font-size: 1.1em;
+    padding: 2%;
+}
+
+.singg{
+    padding: 3%;
+}
+
+.caption{
+    text-align: center;
+    background-color: #282A35; 
+    padding: 5%;
+}
+
+.become{
+    font-size: 3.5em;
+    background-color:  #282A35;
+    color: white;
+    padding: 2%;
+}
+
+.unlock{
+    font-size: 2em;
+    color: pink;
+    padding: 2%;
+}
+
+.linepura{
+    color: white;
+    font-size: 1.1em;
+}
+
+.li1{
+    padding: 1%;
+}
+.li2{
+    padding: 1%;
+    margin-left: 5%;
+}
+.li3{
+    padding: 2%;
+    margin-right:1%;
+}
+
+.cc{
+    color: white;
+}
+
+.colormai{
+    background-color: rgb(244, 233, 235);
+    padding: 5%;
+}
+
+.colorchild{
+    text-align: center;
+}
+
+.pick{
+    font-size: 3.5em;
+    font-weight: bold;
+    padding: 1%;
+}
+
+.sch{
+    font-size: 1em;
+    padding: 3%;
+}
+
+.codemain{
+background-color: #96D4D4;
+color: black;
+padding: 4.5%;
+}
+
+.codemain_child{
+    text-align: center;
+}
+
+.codegame{
+    font-size: 48px;
+    font-family: 'freckle face',cursive;
+    padding: 2%;
+}
+
+.thelynx{
+    font-family: 'freckle face',cursive;
+    padding: 2%;
+}
+
+.playgame{
+    padding: 3%;
+}
+
+ .lassstanch{
+    background-color: #282A35;
+    color: white;
+    font-size: 20px;
+    margin: auto; 
+    display: block;
+    width: 260px;
+    border-radius: 25px;
+    padding: 1.4%;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+      
+}
+
+.sevenmainpage{
+background-color: #282A35;
+color: white;
+text-align: center;
+padding: 5%;
+}
+
+.exer{
+    font-size: 62px;
+    font-weight: bold;
+    padding: 2%;
+}
+
+.your{
+    font-size: 1.2em;
+    padding: 2%;
+}
+
+.dibba1{
+width: 40%;
+background-color: #04AA6D;
+padding: 5%;
+font-size: 2em;
+border-radius: 5px;
+font-weight: bold;
+cursor: pointer;
+
+}
+.dibba2{
+width: 40%;
+background-color: #FFF4A3;
+padding: 5%;
+font-size: 2em;
+border-radius: 5px;
+font-weight: bold;
+color: black;
+cursor: pointer;
+
+}
+
+.greenmain{
+    display: flex;
+    justify-content: space-around;
+}
+
+.eightcodepage{
+    background-color: #E7E9EB ;
+    color: black; 
+    text-align: center;
+    padding: 2%;
+}
+
+.tem1{
+    font-size: 3.5em;
+    padding: 2%;
+}
+
+.brow{
+    font-size: 1.2em;
+    padding: 3%;
+}
+
+.lasbut{
+    padding: 2%;
+}
+
+ .lasssttanch{
+    background-color: #04AA6D;
+    color: white;
+    font-size: 20px;
+    /* margin: auto;  */
+    display: block;
+    width: 260px;
+    border-radius: 25px;
+    padding: 1.4%;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+      
+}
+
+.ninethmaincode{
+    background-color: #282A35;
+    padding: 2%;
+    color: pink;
+    font-weight: bold;
+}
+
+.kick{
+font-size: 3.5em;
+padding: 4%;
+
+}
+
+.get1{
+    font-size: 2.7em;
+    padding: 4%;
+}
+
+.vertical_down{
+    border-left: 50px solid #282A35;
+    height: 90px;
+    margin-left: 48%;
+   
+}
+
+ .laasssttanch{
+    background-color:#282A35 ;
+    color: white;
+    font-size: 20px;
+    /* margin: auto;  */
+    display: block;
+    width: 320px;
+    border-radius: 25px;
+    padding: 1.4%;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+      
+}
+
+.tenthpagecode{
+    text-align: center;
+    padding: 5%;
+
+}
+
+.mainthing{
+    padding: 10px;
+    background: #f1f1f1;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    width: 90%; 
+    text-align: start;
+    margin-left: 6%;
+  
+    
+}
+
+.laasbut{
+    margin-left: 36%;
+}
+
+.sec1{
+    font-size: 3.5em;
+    padding: 2%;
+}
+
+.cod1{
+    font-size: 1.3em;
+    padding: 1%;
+}
+
+.for1{
+    font-size: 1em;
+    padding: 2%;
+}
+
+.laasbut :hover{
+    background-color: #04AA6D;
+    cursor: pointer;
+}
+
+.b1{
+    text-decoration: none;
+    color: #FFF4A3;
+    cursor: pointer;
+
+}
+
+.footerwrapped{
+    background-image: url(./background_in_space.gif);
+    cursor: pointer;
+    
+}
+
+
+
+.footerchild_wrapped{
+    display:flex;
+    justify-content: space-between;
+    padding: 5%;
+   
+}
+
+.manylinn{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    
+
+   
+}
+
+.cc1{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.tutorial{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.colorwhite{
+    margin-top: 5%;
+    padding-left: 8%;
+    color: white;
+
+}
+
+.aanncc{
+    color: white;
+}
+
+.aanncchh{
+  color: white;
+  text-decoration: none;
+}
+
+#grap{
+    padding-right: 7px;
+}
+
+.move{
+    padding-bottom: 3%;
+}
+
+.paragrapgglast{
+  font-size: 12px;
+}
+
+.landing1{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
